@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</head>
+<style>
+   body {
+      width: 1400px;
+   }
+
+   .d-flex {
+      width: 700px;
+   }
+
+   i {
+      margin-top: 10px;
+      margin-right: 5px;
+   }
+
+   a {
+      text-decoration: none;
+      color: black;
+   }
+
+   .image {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+   }
+
+   h6 {
+      font-size: 13px;
+   }
+
+   .card-img-top {
+      width: 200px;
+      height: 200px;
+   }
+</style>
+
+<body>
+   <!-- head section -->
+   <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+         <a class="navbar-brand" href="#"><img src="Images/flipkart icon.svg" id="img"></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <nav class="navbar">
+            <div class="container-fluid">
+               <form class="d-flex" role="search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input class="form-control search" type="search" placeholder="Search for Products, Brands and More"
+                     aria-label="Search">
+               </form>
+            </div>
+         </nav>
+
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     <i class="fa-solid fa-user"></i> Login &nbsp;</a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> My Profile</a></li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cart-shopping"></i> Orders</a>
+                     </li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-regular fa-heart"></i> Wishlist</a></li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gift"></i> Rewards</a></li>
+                  </ul>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart &nbsp; &nbsp;
+                     &nbsp;</a>
+               </li>
+
+               <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-shop"></i> Became a Seller &nbsp; &nbsp;
+                     &nbsp;</a>
+               </li>
+
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                     <i class="fas fa-ellipsis-v"></i> </a>
+                  <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="#"><i class="fa-regular fa-bell"></i> Notification
+                           Preferences</a></li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-headphones"></i> 24x7 Customer
+                           Care</a></li>
+                     <li><a class="dropdown-item" href="#"><i class="fa-solid fa-download"></i> Download App</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- head section ends -->
+   <!-- 2nd section -->
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12 image" style="cursor: pointer;">
+            <a href=""><img src="Images/grocery.webp">
+               <h6>Grocery</h6>
+            </a>
+            <a href=""><img src="Images/mobiles.webp">
+               <h6>Mobiles</h6>
+            </a>
+            <a href=""><img src="Images/fashion.webp">
+               <h6>Fashion</h6>
+            </a>
+            <a href=""><img src="Images/electronics.webp">
+               <h6>Electronics</h6>
+            </a>
+            <a href=""><img src="Images/home-furniture.webp">
+               <h6>Home & Furniture</h6>
+            </a>
+            <a href=""><img src="Images/appliances.webp">
+               <h6>Appliances</h6>
+            </a>
+            <a href=""><img src="Images/travel.webp">
+               <h6>Travel</h6>
+            </a>
+            <a href=""><img src="Images/beauty-toys-more.webp">
+               <h6>Beauty, Toys</h6>
+            </a>
+            <a href=""><img src="Images/two-wheelers.webp">
+               <h6>Two Wheelers</h6>
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <!-- 2nd section ends -->
+   <!-- 3rd section -->
+   <div class="container-fluid">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+         <div class="carousel-inner" style="cursor: pointer;">
+            <div class="carousel-item active">
+               <img src="Images/carousol1.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+               <img src="Images/carousol2.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+               <img src="Images/carousol4.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+               <img src="Images/carousol5.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+               <img src="Images/carousol6.webp" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+               <img src="Images/carousol7.webp" class="d-block w-100">
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+   </div>
+
+   <!-- 3rd section ends -->
+   <!-- 4th section -->
+
+   <div class="container">
+      <div class="row">
+         <div class="col-md-12" style="cursor: pointer;">
+            <img src="Images/bank.webp" width="100%">
+         </div>
+      </div>
+   </div>
+   <!-- 4th section ends -->
+   <!-- 5th section -->
+
+   <h4 style="margin:10px;">Best Mobile</h4>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles2.jpg" class="card-img-top">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Redmi Note 12 Pro 5G</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incl of
+                     offers</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles3.jpg" class="card-img-top">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Nothing Phone 2</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incl of
+                     offers</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles4.jpg" class="card-img-top">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Google Pixel 7a</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incl of
+                     offers</b>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles6.jpg" class="card-img-top">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Vivo T2 Pro 5G</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;from ₹21,999</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles7.jpg" class="card-img-top" style="padding:10px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Nothing Phone 2</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incl of
+                     offers</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/mobiles8.webp" class="card-img-top" style="padding:10px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Realme 11 Pro 5G</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;incl of
+                     offers</b>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+
+
+   <!-- 5th section ends -->
+   <!-- 6th section -->
+   <h4 style="margin:10px;">Top Deals</h4>
+   <div class="container-fluid">
+      <div class="row" >
+         <div class="col-md-2" style="cursor: pointer;" >
+            <div class="card">
+               <img src="Images/jack-jones.jpg" class="card-img-top" style="padding:8px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Jack & Jones, UCB,</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60-85% Off
+                   </b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/red-tape.jpg" class="card-img-top" style="padding:8px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Red Tape, Wildcraft...</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   Min. 60% Off  </b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2">
+            <div class="card" style="cursor: pointer;">
+               <img src="Images/hrs-fila.jpg" class="card-img-top" style="padding:8px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">HRX, FILA & More</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      Under ₹899    </b>
+
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/adidas.jpg" class="card-img-top" style="padding :2px;
+               ">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">ADIDAS,Skenchers more</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Min.50-80% Off</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/sparx.jpg" class="card-img-top" style="padding:8px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Sparx, Liberty & more...</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Under ₹799</b>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-2" style="cursor: pointer;">
+            <div class="card">
+               <img src="Images/fastrack.jpg" class="card-img-top" style="padding:8px;">
+               <div class="card-body">
+                  <p class="card-title" style="text-align: center;">Fatsrack, Ray-Ban, IDEE...</p>
+                  <b class="card-text text-center" style="text-align: center;">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   30-80% Off</b>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+
+   <!-- 6th section ends -->
+   <!-- 7th section -->
+   <div class="container-fluid">
+      <div class="row" style="justify-content: space-around;">
+         <div class="col-md-3" >
+            <img src="images/blu1.webp" style="width:450px;">
+          </div>
+          <div class="col-md-3">
+            <img src="images/blue2.webp" style="width:450px;">
+          </div>
+          <div class="col-md-3" style="margin:8px;">
+            <img src="images/blue3.webp" style="width:450px;">
+          </div>
+
+      </div>
+
+   </div>
+    <!-- 7th section ends -->
+   <!-- 8th section -->
+   <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bg-dark text-light p-4 m-2 text-center">
+         <p> Copy rights @2023</p>
+         <a href="contact us.html">Contact us</a> <br>
+         <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-square-instagram"></i>
+         <i class="fa-brands fa-square-whatsapp"></i>
+         <i class="fa-brands fa-square-twitter"></i>
+        </div>
+        
+      </div>
+  
+    </div>
+    <!-- 8th section ends -->
+  
+  
+
+</body>
+
+</html>
